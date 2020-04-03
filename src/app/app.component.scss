@@ -1,0 +1,11 @@
+:host {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+
+	mat-card-header::ng-deep {
+		.mat-card-header-text {
+			margin: 0;
+		}
+	}
+}

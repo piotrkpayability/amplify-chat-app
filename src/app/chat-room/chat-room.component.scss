@@ -1,0 +1,18 @@
+.messages {
+	height: 500px;
+	background-color: white;
+
+	&-input {
+		background-color: white;
+	}
+}
+
+.mat-card-actions {
+	margin: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.actions__input {
+	width: 100%;
+}
